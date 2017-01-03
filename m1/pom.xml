@@ -30,4 +30,11 @@
       </plugin>
     </plugins>
   </reporting>
+  <distributionManagement>
+    <repository>
+      <id>mvndeploy</id>
+      <name>mvndeployRepo</name>
+      <url>file:../../mvndeployRepo</url>
+    </repository>
+  </distributionManagement>
 </project>
